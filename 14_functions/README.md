@@ -1,3 +1,11 @@
+# Section Review:
+    * Purpose of function:
+        * abstract code -> extract or remove something
+        * code reuseability
+            * DRY - Don't Repeat Yourself
+        * func [reciver] identifier(params) returns
+            * Example -> func [receiver] max(x int) int
+
 # Intro to Functions
     * main is the entry point of program
     * only one main in entire program
