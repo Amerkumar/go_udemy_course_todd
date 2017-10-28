@@ -1,0 +1,16 @@
+casey neistat
+rune
+    - chracter
+    - we use single quotes for rune char
+    - we double quotes "" for string or backticks ``
+    - an integer value identifying a UTF - 8
+    - alias for int32
+        - UTF-8 is 4 byte coding scheme.
+        - just like a very much more more more more extended version of ASCII
+
+ lexical elements:
+    - relating to vocabulary of language.
+ literal values:
+    - is just like any value. - literal just like literal
+string
+    - made up of runes
