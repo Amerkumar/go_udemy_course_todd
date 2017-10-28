@@ -1,9 +1,10 @@
 # Data Structures Overview
-    * means of storing and retrieving data
+    - means of storing and retrieving data
 
 # Arrays
-    * a numbered sequence of elements of single type
-    * do not change in size
+    - Just like collection - arrange things in a particular way.
+    - a numbered sequence of elements of single type
+    - do not change in size
 
 # Slice
     * a list
