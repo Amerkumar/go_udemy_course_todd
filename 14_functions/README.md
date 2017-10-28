@@ -69,3 +69,25 @@
 
 # Defer
     * It is a keyword
+    * put off (an action or event) to a later time; postpone.
+    * Defered just before main exit
+
+# Pass By Value
+    * Everything in go is pass by value
+    * But slices , maps and channels are references so they can actually change inside the function. Because they are
+    * of Data structures.
+
+# Reference Types
+    * slices , maps and channels are reference types
+    * address point to underlying array, length and capacity
+
+# Anonymous Self - Executing Functions:
+    * See the code
+    * Related to functional programming - not recommended in go.
+
+# Bool Expressions
+    * Expressions evaluate down to value of type bool
+    * Difference between expressions and statements?
+        * Expressions happen horizontally while statements happen vertically
+    * Bool Types
+    * Operators (not, or, and)
