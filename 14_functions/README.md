@@ -1,4 +1,4 @@
-#Intro to Functions:
+[Intro to Functions]:
     - main is the entry point of program
     - only one main in entire program
     - you can't have packages without main
@@ -58,3 +58,9 @@
         	}
         }
         ```
+        - functional programming is not main domain of go,but you can use it.
+        - Keep on the side of clarity
+
+
+    #Recursion
+        - Just like
