@@ -1,4 +1,4 @@
-[Intro to Functions]:
+# Intro to Functions
     - main is the entry point of program
     - only one main in entire program
     - you can't have packages without main
@@ -7,7 +7,7 @@
     - Difference between variable and functions - greet and greet()
 
 
-#Func Returns:
+# Func Returns:
     - Func return
     - multiple return
     - named return
