@@ -43,7 +43,7 @@
     * or reference to which the name was bound when the closure was created.
 
 
-    # Callbacks
+# Callbacks
         * Function is also a type
         * passing a function like an argument
         * Calling back that has called it.
@@ -62,6 +62,8 @@
         * Keep on the side of clarity
 
 
-    # Recursion
-        * Just like infinite mirror.
-        *
+# Recursion
+    * Just like infinite mirror.
+    * Defined in terms of itself
+
+# Defer
