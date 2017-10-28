@@ -65,5 +65,7 @@
 # Recursion
     * Just like infinite mirror.
     * Defined in terms of itself
+    * Functions that calls itself
 
 # Defer
+    * It is a keyword
