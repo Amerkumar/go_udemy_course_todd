@@ -4,7 +4,10 @@
 # Arrays
     - Just like collection - arrange things in a particular way.
     - a numbered sequence of elements of single type
+    - Arrays types can be mutidimensional
     - do not change in size
+    - not dynamic
+    * byte - alias for unint8
 
 # Slice
     * a list
