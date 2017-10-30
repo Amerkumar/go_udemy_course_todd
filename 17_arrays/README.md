@@ -14,6 +14,7 @@
     * It is like a pointer to underlying array.
     * It can change in size
     * The value of initalized slice is nil.
+    *
 
  # Map
     * key / value dictionary
