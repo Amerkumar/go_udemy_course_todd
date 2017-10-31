@@ -18,37 +18,70 @@
         - It effectively doubles the array size each time they are created(2,4,8,16) upto 
         - a certain point and after that they scale in smaller proportion.
         
- ** we can slice a slice. **
- 
- ## creating a slice
-    - shorthand
-    - var 
-    - make
-
-
-$$ make
-    - Two ways to create a slice
-        - ```go
+              ** we can slice a slice. **
+## Creating a slice
+ * shorthand
+    ```go
+      mySlice := []string{}
+    ```
+ * var 
+   ```go
+      var student []string // no underlying array
+   ```
+ * make
+   ```go
+    student := make([]string,4)
+   ```
+  
+## Make
+   - Two ways to create a slice
+       - ```go
             mySlice := []int{1,3,5,7,9,11,} // Cannot specify capaciry.
             mySlice := make([]int, 0, 5)
             ```
-    - A new intialized slice value for given element type T is made using the 
-    - built-in function make, which makes a slice type and parameters specifying
-    - the length and optionally the capacity.
+   - A new intialized slice value for given element type T is made using the 
+   - built-in function make, which makes a slice type and parameters specifying
+   - the length and optionally the capacity.
     
-    - A slice created with make always allocates a new hidden array to which the
+   - A slice created with make always allocates a new hidden array             to which the
     - returned slice value refers.
-        - make([]T, length, capacity)
-        - make([]int, 50, 100)
-            - same as this : new([100]int)[0:50]
-    
-    - Like arrays, slices are one dimensional but may be composed to construct 
+        ```go
+          make([]T, length, capacity)
+          make([]int, 50, 100)
+          same as this : new([100]int)[0:50] // It will give slice
+             
+        ```
+        
+   - Like arrays, slices are one dimensional but may be composed to construct 
     - to higher dimensional objects. (multi-dimensional slices)
     - basic slices.
     
     
-$$ append 
-    - append an element to slice
-    - if beyound capacity, append will double the size of slice.
-    - We can also append a slice with another slice.
-    - We can also delete an element using append.
+## append 
+   - append an element to slice
+   - if beyound capacity, append will double the size of slice.
+   - We can also append a slice with another slice.
+   - We can also delete an element using append.
+   
+# Review
+   * The one difference between array and slice visually in golang is
+   ```go
+        myArray = [3]int{}//We have to give length necessarily in Array
+        mySlice = make()//We can use 
+   ```
+   * Incrementing a slice
+   * multi-dimensional
+   * Array to  slice conversion
+   ```go
+        var myArray [24]byte//It is array
+        mySlice = myArray[:]//Now it is slice
+        
+   ```
+   
+   * **Three things to keep in mind about slices**
+        - It stores pointer to an underlying array.
+        - It stores length.
+        - It stores capacity.
+   
+    
+    
