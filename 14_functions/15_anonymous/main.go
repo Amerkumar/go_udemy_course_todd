@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	func(x int){
+	func(x int) {
 		fmt.Println("Hello, Anonymous")
 		fmt.Println(x)
 	}(42)

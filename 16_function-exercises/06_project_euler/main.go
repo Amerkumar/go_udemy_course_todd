@@ -14,22 +14,22 @@ Clearly there cannot be any bouncy numbers below one-hundred, but just over half
 Surprisingly, bouncy numbers become more and more common and by the time we reach 21780 the proportion of bouncy numbers is equal to 90%.
 
 Find the least number for which the proportion of bouncy numbers is exactly 99%.
- */
+*/
 
- // Change this variable to get desired accuracy
- var acc float64 = 0.99
+// Change this variable to get desired accuracy
+var acc float64 = 0.99
 
 func main() {
 	var inc int
 	var dec int
 	var bouncy int
 	//No bouncy less than 100 starting from 100
-	for i := 100 ;; i++{
+	for i := 100; ; i++ {
 		//Check for increasing sequence
- 		for j := i ; j >= 10; {
- 			 prev := j % 10
- 			 j = j / 10
- 			 current := j % 10
+		for j := i; j >= 10; {
+			prev := j % 10
+			j = j / 10
+			current := j % 10
 			if prev >= current {
 				if j < 10 {
 					inc++
@@ -39,7 +39,7 @@ func main() {
 			}
 		}
 		//Check for decreasing sequence
-		for j := i ; j >= 10; {
+		for j := i; j >= 10; {
 			prev := j % 10
 			j = j / 10
 			current := j % 10
@@ -58,9 +58,9 @@ func main() {
 		inc = 0
 		dec = 0
 		if bouncy != 0 {
-			if  float64(bouncy)/ float64(i)  >= acc {
+			if float64(bouncy)/float64(i) >= acc {
 				//Maximum bouncy for which the ratio is 99 percent
-				fmt.Printf("%d is the least number for which the proportion is %f percent.",i,acc*100)
+				fmt.Printf("%d is the least number for which the proportion is %f percent.", i, acc*100)
 				break
 			}
 		}

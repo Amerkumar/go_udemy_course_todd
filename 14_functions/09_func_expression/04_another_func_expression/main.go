@@ -1,4 +1,3 @@
-
 package main
 
 import "fmt"
@@ -12,5 +11,5 @@ func makeGreeter() func() string {
 func main() {
 	greet := makeGreeter()
 	fmt.Println(greet())
-	fmt.Printf("%T",greet)
+	fmt.Printf("%T", greet)
 }

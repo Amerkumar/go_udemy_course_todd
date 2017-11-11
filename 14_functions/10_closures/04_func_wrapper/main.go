@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func wrapper() func() int{
+func wrapper() func() int {
 
 	var x int
 	return func() int {

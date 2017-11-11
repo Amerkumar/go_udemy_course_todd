@@ -10,7 +10,7 @@ func main() {
 
 }
 
-func changeMe(z int)  {
+func changeMe(z int) {
 	fmt.Println(z) // 0xc04200a290
 	z = 24
 }

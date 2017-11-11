@@ -8,6 +8,6 @@ func main() {
 
 }
 
-func greet(name string){ // declared with parameter - recives an argument
+func greet(name string) { // declared with parameter - recives an argument
 	fmt.Println(name)
 }

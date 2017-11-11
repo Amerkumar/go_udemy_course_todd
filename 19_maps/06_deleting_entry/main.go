@@ -12,9 +12,8 @@ func main() {
 
 	fmt.Println(len(myGreeting))
 
-	delete(myGreeting,"Tim")
+	delete(myGreeting, "Tim")
 
 	fmt.Println(myGreeting)
-
 
 }

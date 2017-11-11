@@ -12,14 +12,14 @@ func main() {
 
 	fmt.Println(len(myGreeting))
 
-	delete(myGreeting,"Tim")
+	delete(myGreeting, "Tim")
 
 	fmt.Println(myGreeting)
 
-	if _ ,exists := myGreeting["Harleen"]; exists {
+	if _, exists := myGreeting["Harleen"]; exists {
 		fmt.Println(myGreeting["Harleen"])
 	}
-	if _ , exists := myGreeting["Tim"]; exists {
+	if _, exists := myGreeting["Tim"]; exists {
 		fmt.Println(myGreeting["Tim"])
 	}
 

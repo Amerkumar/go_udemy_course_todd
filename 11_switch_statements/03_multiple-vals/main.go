@@ -1,4 +1,3 @@
-
 package main
 
 import "fmt"
@@ -8,17 +7,15 @@ func main() {
 	//no default fallthrough in go
 	//fallthrough is optional
 
-
 	switch "a" {
 	case "A", "a":
 		fmt.Println("Grade A")
-	case "B" , "b":
+	case "B", "b":
 		fmt.Println("Grade B")
-	case "C" , "c":
+	case "C", "c":
 		fmt.Println("C")
 	default:
 		fmt.Println("F")
 	}
 
 }
-

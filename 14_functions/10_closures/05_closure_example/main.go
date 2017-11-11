@@ -20,9 +20,9 @@ func main() {
 
 	i := makeIterator([]string{"hello", "world", "this", "is", "dog"})
 
-	fmt.Printf("%T \n",i)
+	fmt.Printf("%T \n", i)
 	for c := i(); c != nil; c = i() {
-		fmt.Printf("%T -> ",c)
+		fmt.Printf("%T -> ", c)
 		fmt.Println(c())
 	}
 

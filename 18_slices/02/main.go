@@ -14,7 +14,7 @@ func main() {
 
 	for i := 0; i < 80; i++ {
 		mySlice = append(mySlice, i)
-		fmt.Println("Len: ", len(mySlice), "Capacity:", cap(mySlice), "Value: ",mySlice[i])
+		fmt.Println("Len: ", len(mySlice), "Capacity:", cap(mySlice), "Value: ", mySlice[i])
 	}
 
-	}
+}

@@ -8,6 +8,6 @@ func main() {
 	fmt.Println(z["Todd"])
 }
 
-func changeMe(x map[string]int)  {
+func changeMe(x map[string]int) {
 	x["Todd"] = len("Todd")
 }

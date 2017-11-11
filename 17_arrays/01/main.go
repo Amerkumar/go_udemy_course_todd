@@ -11,4 +11,4 @@ func main() {
 	x[42] = 777
 	fmt.Println(x[42])
 
-	}
+}

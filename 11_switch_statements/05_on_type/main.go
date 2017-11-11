@@ -4,10 +4,10 @@ import "fmt"
 
 type Contact struct {
 	greeting string
-	name string
+	name     string
 }
 
-func SwitchOnType(x interface{})  {
+func SwitchOnType(x interface{}) {
 
 	switch x.(type) { //This is an assertion :
 	case int:
@@ -26,7 +26,7 @@ func SwitchOnType(x interface{})  {
 func main() {
 	SwitchOnType(7)
 	SwitchOnType("Amer")
-	var t = Contact{"Hello","Ahmed"}
+	var t = Contact{"Hello", "Ahmed"}
 	SwitchOnType(t)
 	SwitchOnType('a')
 

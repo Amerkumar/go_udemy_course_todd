@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 
 	//These two are different types
-	data := []float64{43, 57, 87, 12, 45, 57}//Slice of different types
-	n := average(data...)//We are giving variadic argument form
+	data := []float64{43, 57, 87, 12, 45, 57} //Slice of different types
+	n := average(data...)                     //We are giving variadic argument form
 	fmt.Println(n)
 }
 

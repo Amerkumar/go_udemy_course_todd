@@ -7,6 +7,7 @@
     -  **It is reference type** 
     - **Channels are also reference type.**
     - Maps store pointer to the underlying data.
+    - The underlying data structure of maps is hashtable.
 - Underlying a slice is an array whereas underlying is a hashtable.    
     
 # Making Slices
@@ -21,5 +22,19 @@
 - Language Spec 
 - Effective Go
 
+# Best Books
+1. Go Programming Language By Alan
+2. Go in action
+3. The way to Go
+
 # Github Pull
 - Two computers and a cloud server for code repository.    
+
+# Maps Resources
+- Ardan Labs - Macro View of Maps Internals in GO
+- Go Blog - go maps in action
+
+
+# Hash Tables
+- Unsorted to Sorted to Buckets Analogy
+- Buffer Analogy Printer
